@@ -77,7 +77,7 @@ public class ClassGeneral {
         System.out.println("ClassGeneral.java");
 
         if(false){
-            System.out.println("Enum");
+            System.out.println("enums");
         }
     }
 
