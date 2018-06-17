@@ -42,7 +42,7 @@ public class ClassGeneral {
     // Overriding the method "toString()" inherited fro Object class
     public String toString() {
 
-        return "Name: '" + this.fieldString + "', Height: '" + this.fieldStringBuilder + "', Birthday: '" + this.fieldInt + "'";
+        return "fieldString: '" + this.fieldString + "', fieldStringBuilder: '" + this.fieldStringBuilder + "', fieldInt: '" + this.fieldInt + "'";
     }
 
     // COSTRUTTORE senza argomenti;
