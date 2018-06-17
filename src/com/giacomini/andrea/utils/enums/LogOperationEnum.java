@@ -2,6 +2,7 @@ package com.giacomini.andrea.utils.enums;
 
 import static com.giacomini.andrea.utils.Constants.SPACE;
 import static com.giacomini.andrea.utils.Constants.CODE;
+import static com.giacomini.andrea.utils.Constants.MSGERROR_LOGOPERATIONNOTSUPPORTED;
 
 /**
  * Created by Andrea on 24/03/2018.

@@ -12,6 +12,41 @@ import java.util.regex.Pattern;
  */
 public class Constants {
 
+    //------- Group profiles  -----
+
+    public static final String PROFILE_SUPERVISOR = "Supervisor";
+    public static final String PROFILE_NPHQ = "NP-HQ";
+    public static final String PROFILE_ATO = "ATO RTX";
+
+    //------ User status --------
+
+    public static final int USER_STATUS_ENABLE  = 1;
+    public static final int USER_STATUS_DISABLE = 0;
+
+    //------ Error messages ------
+
+    public static final String MSGERROR_LOGOPERATIONNOTSUPPORTED = "Warning the log operation is not supported:";
+
+    //---- Logging message -----
+
+    public static final String LOGPARAMETER_USERID = "UserID";
+    public static final String LOGPARAMETER_USERNAME = "UserName";
+    public static final String LOGPARAMETER_SCHEDULERID = "SchedulerID";
+    public static final String LOGPARAMETER_EQUIPMENTID = "EquipmentID";
+    public static final String LOGPARAMETER_EQUIPMENTNAME = "EquipmentName";
+    public static final String LOGPARAMETER_EQUIPMENTNODEID = "Node ID";
+    public static final String LOGPARAMETER_EQUIPMENTMODEL = "Model";
+    public static final String LOGPARAMETER_EQUIPMENTLOOPBACK0 = "LoopBack0";
+    public static final String LOGPARAMETER_EQUIPMENTLOOPBACK1 = "LoopBack1";
+    public static final String LOGPARAMETER_SCHEDULERNAME = "SchedulerName";
+    public static final String LOGPARAMETER_SCHEDULEFUNCTIONID = "SchedulerFunctionID";
+    public static final String LOGPARAMETER_CURRENTTHREAD = "Current thread";
+
+    //---- Generics ----------------
+
+    public static String OPERATION = "OPERAZIONE";
+    public static String MESSAGE = "MESSAGGIO";
+
     //------ Error messages ------
 
     public static final String MSGERROR_PARAMETEREMPTY = "Warning, the parameter is EMPTY:";
