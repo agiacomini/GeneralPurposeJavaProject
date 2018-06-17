@@ -39,7 +39,7 @@ public class ClassGeneral {
         this.fieldInt = fieldInt;
     }
 
-    // Overriding the method "toString()" inherited fro Object class
+    // Overriding the method "toString()" inherited from Object class
     public String toString() {
 
         return "fieldString: '" + this.fieldString + "', fieldStringBuilder: '" + this.fieldStringBuilder + "', fieldInt: '" + this.fieldInt + "'";
