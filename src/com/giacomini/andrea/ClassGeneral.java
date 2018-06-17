@@ -14,20 +14,34 @@ public class ClassGeneral {
         this.fieldString = fieldString;
     }
 
-    public StringBuilder getFieldStringBuilder() { return fieldStringBuilder; }
+    public StringBuilder getFieldStringBuilder() {
+
+        return fieldStringBuilder;
+    }
 
     public String getFieldString(){
+
         return fieldString;
     }
 
-    public void setFieldStringBuilder(StringBuilder fieldStringBuilder) { this.fieldStringBuilder = fieldStringBuilder; }
+    public void setFieldStringBuilder(StringBuilder fieldStringBuilder) {
+
+        this.fieldStringBuilder = fieldStringBuilder;
+    }
 
     public int getFieldInt() {
+
         return fieldInt;
     }
 
     public void setFieldInt(int fieldInt) {
+
         this.fieldInt = fieldInt;
+    }
+
+    public String toString() {
+
+        return "Name: '" + this.fieldString + "', Height: '" + this.fieldStringBuilder + "', Birthday: '" + this.fieldInt + "'";
     }
 
     // COSTRUTTORE senza argomenti;
