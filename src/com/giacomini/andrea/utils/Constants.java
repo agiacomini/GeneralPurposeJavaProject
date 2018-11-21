@@ -188,8 +188,9 @@ public class Constants {
 
 
 
-    public static final Map<String,String> VSAF_TYPE_TO_DOMAIN_TYPE_MAP ;
+    public static final Map<String,String> VSAF_TYPE_TO_DOMAIN_TYPE_MAP = null ;
     static {
+        /*
         Map<String,String> aMap = new TreeMap<>() ;
 
         aMap.put( Constants.VSAF_MSG_LINK_MONITORING.toUpperCase(), WfKpiType.CODE_CONNDEVICE ) ;
@@ -203,6 +204,7 @@ public class Constants {
         aMap.put( Constants.KPI_CHANNEL.toUpperCase(),	WfKpiType.CODE_CHANNEL ) ;
 
         VSAF_TYPE_TO_DOMAIN_TYPE_MAP = Collections.unmodifiableMap( aMap ) ;
+        */
     }
 
     public static final Map<String,String> VSAF_BAND_TO_DOMAIN_BAND_MAP ;
