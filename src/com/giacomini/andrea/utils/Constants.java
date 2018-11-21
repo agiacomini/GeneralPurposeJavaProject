@@ -207,6 +207,8 @@ public class Constants {
         */
     }
 
+    /* test comment to commit; */
+
     public static final Map<String,String> VSAF_BAND_TO_DOMAIN_BAND_MAP ;
     static {
         Map<String,String> aMap = new TreeMap<>() ;
