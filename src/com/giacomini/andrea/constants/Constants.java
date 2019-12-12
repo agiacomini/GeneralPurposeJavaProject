@@ -17,4 +17,5 @@ public class Constants
 	public static final String ORACLEQUERY_FINDBYID = "SELECT * FROM <table_name> WHERE <column_name> = :id";
 	
 	//---------------------------- ./Oracle Query -----------------------------------//
+	
 }
