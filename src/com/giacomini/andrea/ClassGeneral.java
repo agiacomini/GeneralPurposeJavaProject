@@ -1,5 +1,9 @@
 package com.giacomini.andrea;
 
+import java.sql.SQLException;
+
+import com.sun.org.apache.bcel.internal.generic.ClassGen;
+
 /**
  * Created by Andrea on 28/06/2017.
  */
@@ -44,6 +48,14 @@ public class ClassGeneral {
         this.fieldString = s;
         this.fieldStringBuilder = sb;
     }
+    
+    // Static Factory Method: "valueOf()", "newInstance()", "getInstance()"
+    public static ClassGeneral newInstance()
+    {
+    	return new ClassGeneral();
+    }
+    
+
 
     public void testClassGeneral()
     {
